@@ -179,7 +179,7 @@ export default function FreelancePortfolio({
                 transition={{ duration: animationSpeed, delay: 0.8 }}
               >
                 <motion.a
-                  href="#contact"
+                  href="mailto:mansurperzadayev@gmail.com"
                   className="px-8 py-4 rounded-lg text-white font-medium transition-all inline-block text-center"
                   style={{
                     background: `linear-gradient(to right, ${primaryColor}, #2563eb)`,
