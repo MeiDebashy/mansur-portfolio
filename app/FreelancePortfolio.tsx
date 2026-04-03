@@ -131,7 +131,7 @@ export default function FreelancePortfolio({
                 transition={{ duration: animationSpeed, delay: 0.2 }}
                 style={{ textShadow: `0 0 10px ${primaryColor}` }}
               >
-                Freelance Web Designer
+                Web Developer & Designer
               </motion.span>
 
               <motion.h1
@@ -140,7 +140,7 @@ export default function FreelancePortfolio({
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: animationSpeed, delay: 0.4 }}
               >
-                High-Converting Websites <span className="relative inline-block">
+                I Build Websites That <span className="relative inline-block">
                   <span
                     className="relative z-10"
                     style={{
@@ -149,9 +149,9 @@ export default function FreelancePortfolio({
                       animation: "pulse 2s infinite"
                     }}
                   >
-                    Built
+                    Drive
                   </span>
-                </span> to Generate Leads and Sales
+                </span> Real Business Results
               </motion.h1>
 
               <motion.p
@@ -160,7 +160,7 @@ export default function FreelancePortfolio({
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: animationSpeed, delay: 0.6 }}
               >
-              I design landing pages, SaaS websites, and e-commerce experiences focused on real business results — more leads, more sales, and higher conversion rates.
+              From landing pages and SaaS platforms to e-commerce stores — I design and develop web experiences that convert visitors into customers.
               </motion.p>
 
               <motion.p
@@ -169,7 +169,7 @@ export default function FreelancePortfolio({
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: animationSpeed, delay: 0.7 }}
               >
-              Average delivery: 5–10 days • Direct communication • Western business standards
+              Based in Kazakhstan & China • Open to collaboration worldwide
               </motion.p>
 
               <motion.div
@@ -179,10 +179,7 @@ export default function FreelancePortfolio({
                 transition={{ duration: animationSpeed, delay: 0.8 }}
               >
                 <motion.a
-                  href="https://www.upwork.com/freelancers/~0171d60873f3ad9f91?mp_source=share"
-                  target="_blank"
-                  rel="noopener noreferrer"
-
+                  href="#contact"
                   className="px-8 py-4 rounded-lg text-white font-medium transition-all inline-block text-center"
                   style={{
                     background: `linear-gradient(to right, ${primaryColor}, #2563eb)`,
@@ -196,7 +193,7 @@ export default function FreelancePortfolio({
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
                 >
-                  Start a Project
+                  Get in Touch
                 </motion.a>
 
                 <motion.a
@@ -220,7 +217,7 @@ export default function FreelancePortfolio({
                 animate={{ opacity: 0.7 }}
                 transition={{ duration: animationSpeed, delay: 1 }}
               >
-                <span className="text-sm text-gray-400">Working with startups, founders & online businesses worldwide</span>
+                <span className="text-sm text-gray-400">Working with startups, brands & businesses worldwide</span>
                 <div className="flex gap-2">
                   {[1, 2, 3, 4, 5].map((i) => (
                     <div
@@ -246,7 +243,7 @@ export default function FreelancePortfolio({
               >
               <img
                 src="/hero.jpg"
-                alt="Mansur - Freelance Web Designer"
+                alt="Mansur - Web Developer & Designer"
                 className="w-full h-full object-cover"
               />
 
@@ -403,13 +400,13 @@ export default function FreelancePortfolio({
             {[
               {
                 icon: "⚡",
-                title: "Fast Delivery",
-                description: "Most projects delivered within 1-2 weeks. I respect deadlines and communicate progress daily."
+                title: "Fast Execution",
+                description: "I move quickly without cutting corners. Clear communication and consistent progress every step of the way."
               },
               {
                 icon: "✨",
-                title: "Modern, Premium Look",
-                description: "Your website will look like it cost 5x more. I study top brands and apply their design principles."
+                title: "Modern, Premium Design",
+                description: "I study top brands and apply their design principles. The result looks and feels premium."
               },
               {
                 icon: "📱",
@@ -423,8 +420,8 @@ export default function FreelancePortfolio({
               },
               {
                 icon: "💎",
-                title: "Startup-Friendly Rates",
-                description: "Premium quality without agency prices. Perfect for bootstrapped businesses and growing startups."
+                title: "End-to-End Execution",
+                description: "From concept to deployment — I handle design, development, and optimization so you get a complete solution."
               }
             ].map((feature, index) => (
               <motion.div
@@ -484,7 +481,7 @@ export default function FreelancePortfolio({
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: animationSpeed, delay: 0.2 }}
               >
-                Built for Business Owners Who Need Results
+                What I Bring to the Table
               </motion.h2>
 
               <motion.div
@@ -494,28 +491,27 @@ export default function FreelancePortfolio({
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: animationSpeed, delay: 0.3 }}
               >
-                <p>I'm Mansur — a frontend-focused web designer specializing in fast, clean, conversion-oriented landing pages for startups and online businesses.</p>
-                <p>  Currently open for my first long-term international clients via Upwork. </p>
+                <p>I'm Mansur — a web developer and designer with a strong focus on building websites that actually work for businesses. I combine clean frontend development with conversion-driven design.</p>
 
-                <p>I started freelancing after seeing too many websites that looked good but failed to generate real business results. My approach is simple: design should drive revenue, not just look pretty.</p>
+                <p>My approach is simple: design should drive revenue, not just look pretty. I've seen too many websites that look great but fail to generate real results.</p>
 
-                <p>I work with startups and online businesses who need:</p>
+                <p>Here's what I can do for your business:</p>
                 <ul className="space-y-2 pl-5">
                   <li className="flex items-center gap-2">
                     <span className="text-blue-500">•</span>
-                    Websites that convert visitors into paying customers
+                    Design & develop websites that convert visitors into customers
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="text-blue-500">•</span>
-                    Fast turnarounds without compromising quality
+                    Build landing pages, SaaS platforms, and e-commerce stores
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="text-blue-500">•</span>
-                    Clear communication and no surprises
+                    Deliver fast, mobile-optimized, SEO-ready products
                   </li>
                 </ul>
 
-                <p>Every project I take on is built with one goal: help your business grow. Whether that's more leads, more sales, or better brand perception — I focus on measurable outcomes.</p>
+                <p>Every project I take on is built with one goal: help your business grow. Whether it's more leads, more sales, or stronger brand presence — I focus on measurable outcomes.</p>
               </motion.div>
 
               <motion.div
@@ -532,10 +528,7 @@ export default function FreelancePortfolio({
               </motion.div>
 
               <motion.a
-                href="https://www.upwork.com/freelancers/~0171d60873f3ad9f91?mp_source=share"
-                target="_blank"
-                rel="noopener noreferrer"
-
+                href="mailto:mansurperzadayev@gmail.com"
                 className="mt-8 px-8 py-4 rounded-lg text-white font-medium transition-all inline-block text-center"
                 style={{
                   background: `linear-gradient(to right, ${primaryColor}, #2563eb)`,
@@ -553,7 +546,7 @@ export default function FreelancePortfolio({
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
               >
-                Let's Discuss Your Project
+                Let's Talk
               </motion.a>
             </div>
 
@@ -566,9 +559,9 @@ export default function FreelancePortfolio({
             >
               <div className="grid grid-cols-1 gap-6">
                 {[
-                  { label: "Specialization", value: "Conversion Design" },
-                  { label: "Delivery Speed", value: "1–2 Weeks" },
-                  { label: "Client Type", value: "Startups & SMB" }
+                  { label: "Focus", value: "Web Development" },
+                  { label: "Strength", value: "Conversion Design" },
+                  { label: "Available For", value: "Full-time & Projects" }
                 ].map((stat, index) => (
                   <motion.div
                     key={index}
@@ -769,7 +762,7 @@ export default function FreelancePortfolio({
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: animationSpeed, delay: 0.2 }}
             >
-              Let's Build a Website That <span style={{ color: primaryColor, textShadow: `0 0 10px ${primaryColor}` }}>Makes You Money</span>
+              Let's Build Something <span style={{ color: primaryColor, textShadow: `0 0 10px ${primaryColor}` }}>Together</span>
             </motion.h2>
 
             <motion.p
@@ -779,7 +772,7 @@ export default function FreelancePortfolio({
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: animationSpeed, delay: 0.3 }}
             >
-              I'll help you create a website that doesn't just look good — it drives real business results.
+              Whether you need a website, a landing page, or an e-commerce platform — I'm ready to make it happen.
             </motion.p>
 
             <motion.div
@@ -790,10 +783,7 @@ export default function FreelancePortfolio({
               className="flex justify-center"
             >
               <motion.a
-                href="https://www.upwork.com/freelancers/~0171d60873f3ad9f91?mp_source=share"
-                target="_blank"
-                rel="noopener noreferrer"
-
+                href="mailto:mansurperzadayev@gmail.com"
                 className="px-12 py-5 text-lg rounded-lg text-white font-medium transition-all inline-block text-center"
                 style={{
                   background: `linear-gradient(to right, ${primaryColor}, #2563eb)`,
@@ -820,7 +810,7 @@ export default function FreelancePortfolio({
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
               >
-                Start a Project
+                Contact Me
               </motion.a>
             </motion.div>
 
@@ -833,15 +823,15 @@ export default function FreelancePortfolio({
             >
               <div className="flex items-center gap-2">
                 <span style={{ color: primaryColor }}>✓</span>
-                Clear pricing after scope review
+                Direct communication
               </div>
               <div className="flex items-center gap-2">
                 <span style={{ color: primaryColor }}>✓</span>
-                Direct communication with developer
+                Fast turnaround
               </div>
               <div className="flex items-center gap-2">
                 <span style={{ color: primaryColor }}>✓</span>
-                No agencies or middlemen
+                Available worldwide
               </div>
             </motion.div>
           </div>
@@ -853,51 +843,52 @@ export default function FreelancePortfolio({
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
             <div>
-              <h3 className="text-xl font-bold mb-2">Mansur Web Studio</h3>
-              <p className="text-gray-400 mb-4">Premium websites for serious businesses</p>
-              <div className="flex items-center gap-2 text-sm text-gray-300 mb-6">
-                <span
-                  className="flex items-center justify-center w-5 h-5 rounded-full text-xs"
-                  style={{ backgroundColor: primaryColor }}
-                >
-                  ✓
-                </span>
-                Available for direct hire — also via Upwork for platform convenience
-              </div>
+              <h3 className="text-xl font-bold mb-2">Mansur</h3>
+              <p className="text-gray-400 mb-4">Web Developer & Designer</p>
               <p className="text-sm text-gray-500">
-                All communication starts here for your security and transparency. No hidden fees, no surprises.
+                Open to full-time roles, project collaborations, and partnerships. Let's talk about how I can help your business grow.
               </p>
             </div>
 
             <div>
               <h4 className="text-xs uppercase tracking-[3px] text-blue-500 font-medium mb-4">Get In Touch</h4>
               <a
-                href="mailto:contact@mansurwebstudio.com"
-                className="text-xl font-bold hover:text-blue-500 transition-colors inline-block mb-2"
+                href="mailto:mansurperzadayev@gmail.com"
+                className="text-xl font-bold hover:text-blue-500 transition-colors inline-block mb-4"
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
               >
-                Primary contact: Upwork only
+                mansurperzadayev@gmail.com
               </a>
-              <p className="text-gray-400 mb-6">I typically respond within 24 hours</p>
-              <div className="flex items-center gap-2 text-sm">
-                <span>Or message me on</span>
+
+              <div className="space-y-2 text-sm text-gray-300">
+                <p>
+                  <span className="text-gray-500">KZ</span>{" "}
+                  <a href="tel:+77019998280" className="hover:text-blue-500 transition-colors">+7 701 999 8280</a>
+                </p>
+                <p>
+                  <span className="text-gray-500">CN</span>{" "}
+                  <a href="tel:+8618210926863" className="hover:text-blue-500 transition-colors">+86 182 1092 6863</a>
+                </p>
+              </div>
+
+              <div className="flex items-center gap-4 mt-4 text-sm">
                 <a
-                  href="https://www.upwork.com/freelancers/~0171d60873f3ad9f91?mp_source=share"
+                  href="https://www.instagram.com/mperzadayev"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:underline"
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
                 >
-                  Upwork
+                  Instagram
                 </a>
               </div>
             </div>
           </div>
 
           <div className="text-center text-sm text-gray-500 pt-8 border-t border-white/5">
-            © 2025 Mansur Web Studio · All rights reserved
+            © 2025 Mansur · All rights reserved
           </div>
         </div>
       </footer>
@@ -919,17 +910,3 @@ export default function FreelancePortfolio({
     </div>
   );
 }
-
-// Portfolio Image Component with Fallback
-interface PortfolioImageProps {
-  src: string;
-  alt: string;
-  title: string;
-  primaryColor: string;
-}
-
-<img
-  src="/hero.jpg"
-  alt="Mansur - Freelance Web Designer"
-  className="w-full h-full object-cover"
-/>
